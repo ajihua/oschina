@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 //            getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrimary));
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
+        Log.d("lzy","lzy");
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
